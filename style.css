@@ -32,4 +32,19 @@ p, h1, h2, h3, h4, h5, h6 {
 
 /* End of Reset */
 
+/* Variables */
+
+:root {
+
+  /* colors */
+  --light-foam: hsl(160, 100%, 99%);
+  --dark-green: hsl(164, 33%, 16%);
+  --green: hsl(163, 73%, 30%);
+
+  /* fonts */
+
+  --extra-large-text: 48px;
+  --large-text: 24px;
+  --medium-text: 21px;
+}
 
