@@ -8,23 +8,25 @@
 
   <link rel="stylesheet" href="style.css">
 </head>
-<body>
-  <header class="mainHeader">
-    <ul class="mainHeader__list">
-      <li class="mainHeader__listItem">Dark mode</li>
-      <li class="mainHeader__listItem">Turn motion on</li>
-    </ul>
-  </header>
-  <main class="mainContent">
-    <h1 class="mainContent__heading">What Studio Ghibli film should I watch before bed?</h1>
-    <img src="https://placekitten.com/g/270/300" alt="" class="mainContent__img">
-    <h2 class="mainContent__subheading">Title of film</h2>
-    <p class="mainContent__bodyText">Two sisters move to the country with their father in order to be closer to their hospitalized mother, and discover the surrounding trees are inhabited by Totoros, magical spirits of the forest. When the youngest runs away from home, the older sister seeks help from the spirits to find her.</p>
-    <button class="mainContent__btn">Get New Film</button>
-  </main>
-  <footer class="footer">
-    <p class="footer__attribution">Made with ♥ by kyem </p>
-  </footer>
+<body class="flex column">
+  <div class="container">
+    <header class="mainHeader">
+      <ul class="mainHeader__list flex space-between">
+        <li class="mainHeader__listItem">Dark mode</li>
+        <li class="mainHeader__listItem">Turn motion on</li>
+      </ul>
+    </header>
+    <main class="mainContent">
+      <h1 class="mainContent__heading">What Studio Ghibli film should I watch before bed?</h1>
+      <img src="https://placekitten.com/g/270/300" alt="" class="mainContent__img">
+      <h2 class="mainContent__subheading">My Neighbor Totoro</h2>
+      <p class="mainContent__bodyText">Two sisters move to the country with their father in order to be closer to their hospitalized mother, and discover the surrounding trees are inhabited by Totoros, magical spirits of the forest. When the youngest runs away from home, the older sister seeks help from the spirits to find her.</p>
+      <button class="mainContent__btn">Get New Film</button>
+    </main>
+    <footer class="footer">
+      <p class="footer__attribution">Made with <span class="footer__attribution-red">♥</span> by kyem </p>
+    </footer>
+  </div>
   <script src="index.js"></script>
 </body>
 </html> 

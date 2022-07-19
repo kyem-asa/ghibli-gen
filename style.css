@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;900&display=swap');
+
 /*
   Josh's Custom CSS Reset
   https://www.joshwcomeau.com/css/custom-css-reset/
@@ -8,6 +10,7 @@
 }
 * {
   margin: 0;
+  padding: 0;
 }
 html, body {
   height: 100%;
@@ -46,5 +49,74 @@ p, h1, h2, h3, h4, h5, h6 {
   --extra-large-text: 48px;
   --large-text: 24px;
   --medium-text: 21px;
+  --small-text: 16px 
+}
+
+body {
+  font-family: Inter;
+  color: var(--dark-green);
+  background-color: var(--light-foam);
+}
+
+.flex {
+  display: flex;
+}
+
+.mainHeader__list{
+  /* background-color: pink; */
+}
+
+.mainHeader__listItem {
+  list-style-type: none;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.container {
+  min-width: 375px;
+}
+
+.mainContent__heading {
+  font-size: var(--large-text);
+  text-transform: uppercase;
+  font-style: italic;
+  font-weight: 900;
+}
+
+.mainContent__subheading {
+  font-size: var(--large-text);
+  font-style: italic;
+  font-weight: 900;
+}
+
+.mainContent__bodyText {
+  font-size: var(--medium-text);
+}
+
+.mainContent__btn {
+  background-color: var(--dark-green);
+  color: var(--light-foam);
+  border: none;
+  font-size: var(--medium-text);
+  text-transform: uppercase;
+  width: 275px;
+  height: 60px;
+  cursor: pointer;
+}
+
+.mainContent__btn:hover {
+  color: var(--dark-green);
+  border: 2px solid hsl(164, 33%, 16%);
+  background-color: var(--light-foam);
+}
+
+.footer__attribution-red {
+  color: red;
 }
 
