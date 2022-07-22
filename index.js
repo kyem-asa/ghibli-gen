@@ -26,7 +26,7 @@ fetch("https://ghibliapi.herokuapp.com/films")
     document.querySelector('body').style.backgroundColor = '#1B1B1B'
 
     document.querySelector('.darkToggle').style.display = 'none'
-    document.querySelector('.lightToggle').style.display = 'flex'
+    document.querySelector('.lightToggle').style.display = 'block'
   })
 
 document.querySelector('.lightToggle').addEventListener('click', function(){
@@ -34,5 +34,5 @@ document.querySelector('.lightToggle').addEventListener('click', function(){
   document.querySelector('body').style.backgroundColor = 'hsl(160, 100%, 99%)'
 
   document.querySelector('.lightToggle').style.display = 'none'
-  document.querySelector('.darkToggle').style.display = 'flex'
+  document.querySelector('.darkToggle').style.display = 'block'
 })

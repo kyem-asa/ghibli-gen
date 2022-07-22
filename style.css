@@ -64,11 +64,15 @@ body {
 }
 
 .mainHeader__list{
-  /* background-color: pink; */
+ 
 }
 
+.fa-solid {
+  margin-right: 20px;
+}
 .mainHeader__listItem {
   list-style-type: none;
+  
 }
 
 .space-between {
