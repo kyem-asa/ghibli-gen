@@ -8,13 +8,13 @@ fetch("https://ghibliapi.herokuapp.com/films")
       let currentMovie = Math.floor(Math.random() * data.length)
 
       console.log(currentMovie)
-      // // console.log(data[Math.floor(Math.random() * data.length)].image)
-      // document.querySelector('img').src = data.message
+     
       document.querySelector('.mainContent__subheading').innerText = data[currentMovie].title;
       document.querySelector('.mainContent__img').src = data[currentMovie].image;
       document.querySelector('.mainContent__bodyText').innerText = data[currentMovie].description;
 
       document.querySelector('.mainContent__img__initial').style.display = 'none'
+      document.querySelector('.mainContent__img').style.display = 'block'
     })
 
     .catch(err => {
