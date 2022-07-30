@@ -23,7 +23,6 @@ fetch("https://ghibliapi.herokuapp.com/films")
   })
 
   document.querySelector('.darkToggle').addEventListener('click', function(){
-    console.log('works')
     document.querySelector('body').style.color = 'hsl(160, 100%, 99%)'
     document.querySelector('body').style.backgroundColor = '#1B1B1B'
 
