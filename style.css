@@ -160,3 +160,7 @@ body {
   bottom: 0;
   text-align: center;
 }
+
+.mainContent__img {
+  display: none;
+}
