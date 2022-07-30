@@ -87,12 +87,6 @@ body {
   justify-content: center;
   align-items: center;
 }
-.container {
-  /* display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column; */
-}
 
 .mainContent__heading {
   font-size: var(--large-text);
@@ -113,6 +107,9 @@ body {
   width: 300px;
 }
 
+.mainContent__img__initial {
+  display: block;
+}
 
 .mainContent__bodyText {
   font-size: var(--medium-text);
@@ -156,9 +153,10 @@ body {
 }
 
 .footer {
-  position: fixed;
-  bottom: 0;
+  /* position: fixed;
+  bottom: 0; */
   text-align: center;
+  margin-top: 100px;
 }
 
 .mainContent__img {
