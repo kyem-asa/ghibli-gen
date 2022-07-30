@@ -113,8 +113,9 @@ body {
 
 .mainContent__bodyText {
   font-size: var(--medium-text);
-  padding-bottom: 20px;
+  padding: 40px 0;
   max-width: 500px;
+
 }
 
 .mainContent__btn {
